@@ -17,7 +17,7 @@ class Napitochki extends StatelessWidget {
           elevatedButtonTheme: ElevatedButtonThemeData(
             style: ButtonStyle(
                 backgroundColor:
-                MaterialStateProperty.all(Colors.lightGreen[400])),
+                    MaterialStateProperty.all(Colors.lightGreen[400])),
           )),
       home: Navigator(
         initialRoute: WelcomePage.route,
